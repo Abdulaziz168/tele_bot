@@ -13,7 +13,7 @@ server = Flask(__name__)
 
 @bot.message_handler(commands=['start'])
 def start_message(message):
-    bot.send_message(message.chat.id, 'Assalomu alaykum' + message.from_user.first_name 'Sevimliplay playformasi botiga xush kelibsiz')
+    bot.send_message(message.chat.id, 'Assalomu alaykum Sevimliplay playformasi botiga xush kelibsiz')
     markup = types.ReplyKeyboardMarkup(resize_keyboard=True)
     item1 = types.KeyboardButton("To‘lov qanday qilinadi")
     item2 = types.KeyboardButton("Video qo'llanma")
