@@ -6,7 +6,7 @@ import os
 import logging
 PORT = int(os.environ.get('PORT', '5000'))
 
-token = '5168803436:AAEWQv22YopYjK7aH-YVgh2XBk4y9Ruej8s'
+token = '5071173546:AAFVw1CVPoXHrc7rFeZIVNilYAtArjiYnSs'
 bot = telebot.TeleBot(token)
 server = Flask(__name__)
 
